@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   font-size: 18px;
   color: #e5e7eb;
+  margin: 0px;
 }
 
 .nav {
@@ -88,8 +89,11 @@ div.header-text {
 }
 
 .section2 {
+  margin: 0px;
+  padding-top: 32px;
+  /* background-color: blue; */
   background-color: #f9faf8;
-  height: 500px;
+  height: 400px;
 }
 
 .section2 > .header-text {
@@ -97,6 +101,7 @@ div.header-text {
   text-align: center;
   font-size: 36px;
   margin: 32px;
+  margin-top: 0;
 }
 
 .card > .image {
@@ -118,4 +123,26 @@ div.header-text {
   display: flex;
   justify-content: space-between;
   padding: 0px 220px;
+}
+
+.section3 {
+  display: flex;
+  /* text-align: center; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  font-weight: lighter;
+  font-size: 36px;
+  color: #1f2937;
+  padding: 120px 245px;
+}
+
+span {
+  padding: 0px 85px;
+  align-self: flex-end;
+  font-size: 24px;
+  color: rgb(52, 52, 52);
+  font-weight: 700;
+  text-align: center;
 }
