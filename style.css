@@ -1,2 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+
 .top-section {
+  padding: 0 150px;
+  background-color: #1f2937;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  /* border: 1px solid white; */
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  /* font-weight: 300;
+  font-size: 18px; */
+}
+
+.header-logo {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  /* flex-direction: column; */
+}
+
+.Info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.image {
+  flex: 1;
+  background-color: lightgray;
+  height: 200px;
+}
+
+p {
+  font-size: 18px;
+  margin: 0 0 12px 0;
+}
+
+div.header-text {
+  font-weight: 900;
+  color: #f9faf8;
+  font-size: 48px;
+  margin-bottom: 6px;
+  padding: 0;
+}
+.sign-up {
+  padding: 8px 32px;
+  background-color: #3882f6;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 800;
+  border: none;
+  border-radius: 8px;
+  color: #f9faf8;
 }
