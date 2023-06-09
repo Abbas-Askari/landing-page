@@ -138,11 +138,48 @@ div.header-text {
   padding: 120px 245px;
 }
 
-span {
+.qouted-by {
   padding: 0px 85px;
   align-self: flex-end;
   font-size: 24px;
   color: rgb(52, 52, 52);
   font-weight: 700;
   text-align: center;
+}
+
+.section4 {
+  background-color: #f9faf8;
+  padding: 100px;
+}
+
+.section4 > .content {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 128px;
+  border-radius: 10px;
+}
+
+.content > button {
+  border: 2px solid white;
+}
+
+.content .header {
+  color: white;
+  font-weight: 650;
+  font-size: 24px;
+}
+
+.content p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 32px;
+  font-size: 18px;
 }
